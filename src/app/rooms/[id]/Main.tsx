@@ -4,9 +4,13 @@ import Gallery from "./Gallery";
 import Description from "./Description";
 import useGetRoom from "@/hooks/useGetRoom";
 import Header from "./Header";
+import HeaderSkeleton from "./HeaderSkeleton";
+import GallerySkeleton from "./GallerySkeleton";
+import DescriptionSkeleton from "./DescriptionSkeleton";
 
 const Main = ({ id }: { id: Room["id"] }) => {
-  const { data }: { data: Room | undefined } = useGetRoom(id);
+  const { data, isLoading }: { data: Room | undefined; isLoading: boolean } =
+    useGetRoom(id);
   return (
     <div>
       {data ? (
@@ -17,6 +21,13 @@ const Main = ({ id }: { id: Room["id"] }) => {
         </>
       ) : (
         ""
+      )}
+      {isLoading && (
+        <>
+          <HeaderSkeleton />
+          <GallerySkeleton />
+          <DescriptionSkeleton />
+        </>
       )}
     </div>
   );
