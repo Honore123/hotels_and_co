@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Steps to follow
 
-## Getting Started
+- Create a timeline for project revamping
+- Create and share timeline with both financial team and marketing team
+- Create tasks on teams managment platform to track progress of each team member
+- Create wireframes using figma
+- Share wireframes with other team member of feedback on both user interface and user experience
+- Choose frontend technology to use (React, angular,...)
+- Setup remote repository with 3 branches as follows development, staging, and production on github
+- Create a project with nextjs
+- Create github workflows to build, prettier, and test scripts using github actions
+- Make development branch as the main branch and disable pull request on other branches except dev branch
+- Install initial packages such as react testing library, eslint and prettier
+- Setup eslint and prettier
+- Push boilerplate to github and merge it to dev
+- deploy all branch on vercel or other preferred platform for previewing the user interface
+- Start to work on user interface and ask teammates to review and merge you PR(pull request)
+- Once a feature is merged on dev, preview it on vercel to see it works perfectly
+- stage all the features that have been done during the week at the end of the week
+- Do standup daily to keep tracking the progress as well as teams goal
+- Communicate with the marketing and financial team to prepare both budget and ways to allow users to be familiar with new user interface
+- After finishing revamping check if all features works perfectly before merging files from staging to production
+- Merge staged files to production
+- Keep maintaining project for small bugs and other malfunction with help of testing team as well as customer service team
 
-First, run the development server:
+## How to access this project locally
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Have node installed
+2. Install `pnpm` as package manager
+3. Clone the main repo
+4. Install dependencies using `pnpm i`
+5. run project with `pnpm dev`
+6. build project with `pnpm build`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## How to access this project remotely
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- visit `url here`
