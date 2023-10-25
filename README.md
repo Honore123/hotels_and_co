@@ -1,4 +1,4 @@
-## Steps to follow
+## Strategies that I can use as frontend engineer revamping legacy application
 
 - Create a timeline for project revamping
 - Create and share timeline with both financial team and marketing team
@@ -14,7 +14,9 @@
 - Setup eslint and prettier
 - Push boilerplate to github and merge it to dev
 - deploy all branch on vercel or other preferred platform for previewing the user interface
-- Start to work on user interface and ask teammates to review and merge you PR(pull request)
+- Starting working on the UI tasks and ask teammates to review and merge PR(pull request)
+- Ask backend developers documentation for the APIs endpoints
+- Start to work on integration(integrate ui with backend apis) tasks and ask teammates to review and merge PR(pull request)
 - Once a feature is merged on dev, preview it on vercel to see it works perfectly
 - stage all the features that have been done during the week at the end of the week
 - Do standup daily to keep tracking the progress as well as teams goal
