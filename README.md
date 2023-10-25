@@ -34,4 +34,4 @@
 
 ## How to access this project remotely
 
-- visit `url here`
+- visit https://honore-gilt.vercel.app/ or the link in about section on this repo
